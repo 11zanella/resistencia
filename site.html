@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTC-3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="site01.js"defer></script>
+    <title>Calculo de Resistência</title>
+</head>
+<body>
+    <header>
+        <h1>Programa para Calcular a Resistência de um Fio Condutor</h1>
+    </header>
+    <main>
+        <label for="tipo">Selecione o Material</label>
+        <select name="" id="tipo">
+            <option value="cobre">Cobre</option>
+            <option value="aluminio">Alumínio</option>
+        </select>
+        <br>
+
+        <br>
+        <br>
+        <label for="compfalse">Digite o Comprimento</label>
+        <br>
+        <input type="text" id="compfalse" placeholder="Valor em KM">
+
+        <br>
+        <br>
+        <label for="areatrans">Digite a Área da Seção Transversal</label>
+        <br>
+        <input type="text" id="areatrans" placeholder="Valor em Milímetros">
+        <br>
+
+        <button id="calcular">calcular</button>
+        <br><br>
+        <div id="res"></div>
+    </main>
+    <footer>
+        by Zanella &copy; &trade;
+    </footer>
+</body>
+</html>
